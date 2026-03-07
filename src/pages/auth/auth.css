@@ -1,0 +1,119 @@
+.auth-wrapper {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1e7d32, #4caf50);
+  padding: 20px;
+}
+
+.auth-card {
+  background: white;
+  padding: 40px;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.auth-card h2 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.auth-subtitle {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #666;
+  font-size: 14px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #1e7d32;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(30, 125, 50, 0.2);
+}
+
+.role-selection {
+  margin: 15px 0;
+}
+
+.role-selection label {
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.role-options {
+  display: flex;
+  gap: 10px;
+}
+
+.role-options button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.role-options button.active {
+  background: #1e7d32;
+  color: white;
+  border-color: #1e7d32;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 12px;
+  background: #1e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+
+.auth-button:hover {
+  background: #166628;
+}
+
+.auth-error {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.auth-footer {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.auth-footer a {
+  color: #1e7d32;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}

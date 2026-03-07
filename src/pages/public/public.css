@@ -1,0 +1,480 @@
+.page {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.page h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.section {
+  margin-top: 60px !important;
+  margin-bottom: 60px;
+}
+
+.grid {
+  margin-top: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  background: #1e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* Home Page */
+.hero {
+  height: 90vh;
+  background: url("https://images.unsplash.com/photo-1500595046743-cd271d694d30")
+    center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #1e7d32;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-section {
+  height: 20vh;
+  width: 100%;
+  background: linear-gradient(to right, #1e7d32, #4caf50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+.section-description {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #555;
+  font-size: 16px;
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.timeline-step {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.timeline-step:hover {
+  transform: translateY(-6px);
+}
+
+.circle {
+  width: 45px;
+  height: 45px;
+  background: #1e7d32;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  font-weight: bold;
+}
+
+/* About Page */
+.about-page {
+  padding: 60px 20px;
+  margin: auto;
+  justify-content: center;
+}
+
+.about-page h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-page h3 {
+  margin-top: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.about-page p {
+  line-height: 1.6;
+  color: #555;
+  display: flex;
+  text-align: center;
+}
+
+.about-page .what-we-do-para {
+  justify-content: center;
+  margin-bottom: 20px !important;
+  text-decoration: underline;
+}
+
+.about-page ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 30px;
+  line-height: 1.6;
+  color: #555;
+  padding-left: 20px;
+}
+
+.mission-vision-down {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+}
+
+.mission-vision-down h3 {
+  text-align: left;
+  font-size: 20px;
+}
+
+/* Farmer Stories Extra */
+.farmer-stories-page {
+  padding: 60px 0px;
+  margin: auto;
+  text-align: center; 
+}
+
+.farmer-stories-page .section {
+  justify-content: center !important;
+  align-items: center !important;
+}
+.farmer-image {
+  height: 220px;
+  border-radius: 12px;
+  background: url("https://images.unsplash.com/photo-1592982537447-6f2b3b28d7f4")
+    center/cover no-repeat;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.final-line {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1e7d32;
+}
+
+.farmer-card {
+  text-align: center;
+}
+
+.farmer-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.farmer-card .location {
+  color: #1e7d32;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.farmer-card button {
+  margin-top: 15px;
+}
+
+.farmer-stories-page .grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+  justify-content: center;  
+}
+
+/* Shop Page */
+/* Shop Page Styling */
+
+.shop-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+}
+
+.image-wrapper {
+  position: relative;
+  height: 220px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #1e7d32;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+}
+
+.product-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.product-info h3 {
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #1e7d32;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+/* Checkout Page */
+.checkout-container {
+  display: flex;
+  gap: 40px;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.checkout-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.checkout-right {
+  flex: 1;
+  min-width: 300px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.checkout-form input,
+.checkout-form select {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.summary-card {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.summary-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.checkout-wrapper {
+  display: flex;
+  gap: 40px;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.checkout-form-section {
+  flex: 1;
+  min-width: 350px;
+}
+
+.checkout-summary-section {
+  flex: 1;
+  min-width: 350px;
+  background: #f9f9f9;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.checkout-subtext {
+  margin-bottom: 25px;
+  color: #666;
+}
+
+.modern-checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.modern-checkout-form input,
+.modern-checkout-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+.modern-checkout-form textarea {
+  resize: none;
+  height: 80px;
+}
+
+.payment-label {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.payment-options {
+  display: flex;
+  gap: 15px;
+}
+
+.place-order-btn {
+  margin-top: 15px;
+  padding: 14px;
+  background: #1e7d32;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.place-order-btn:hover {
+  background: #145c25;
+}
+
+.summary-product {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.summary-product img {
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.quantity-control button {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  background: #1e7d32;
+  color: white;
+  cursor: pointer;
+}
+
+.price-breakdown div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.grand-total {
+  font-weight: bold;
+  font-size: 18px;
+}
